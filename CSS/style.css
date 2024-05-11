@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --color-one: #05aaf4;
+    --color-two: #333;
+    --background-color: #f6f6f6;
+    --main-padding: 2rem;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    height: 40px;
+    padding: var(--main-padding);
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+section:first-of-type {
+    background-color: var(--background-color);
+    padding: var(--main-padding);
+}
+section:first-of-type span {
+    color: var(--color-one);
+}
+h1 {
+    padding: 10px;
+}
+section:first-of-type p {
+    margin-top: 0px;
+    width: 65%;
+}
+section {
+    padding: var(--main-padding);
+}
+section:nth-of-type(2) div {
+    width: 70%;
+}
+section:nth-of-type(2) div div {
+    width: 30%;
+}
+section:nth-of-type(2) h4 {
+    margin: 5px 0;
+}
+#about {
+    background-color: var(--background-color);
+    padding: var(--main-padding);
+}
+#about h3 {
+    margin: 0 0 10px 0;
+}
+#about div {
+    width: 80%;
+}
+#about div div {
+    margin: 40px 0;
+}
+#services {
+    width: 70%;
+}
+#services div {
+    padding: 10px;
+    width: calc(95% / 3);
+}
+#services span:first-child {
+    font-size: 3.6rem;
+}
+.progress {
+    background-color: var(--background-color);
+    padding: var(--main-padding);
+}
+.progress div div {
+    background-color: white;
+    width: 100%;
+}
+.progress div div span{
+    background-color: var(--color-one);
+    color: white;
+    padding: 10px;
+}
+.progress p {
+    width: 100px;
+    margin: 10px;
+}
+.progress div {
+    display: flex;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: var(--color-two);
+    padding: 1rem;
+}
+a {
+    text-decoration: none;
+    color: var(--color-one);
+}

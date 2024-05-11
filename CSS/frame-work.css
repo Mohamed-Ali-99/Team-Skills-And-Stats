@@ -1,0 +1,52 @@
+.bold {
+    font-weight: bold;
+}
+.flex {
+    display: flex;
+}
+.space-around {
+    display: flex;
+    justify-content: space-around;
+}
+.space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+.align-center {
+    display: flex;
+    align-items: center;
+}
+.text-center {
+    text-align: center;
+}
+.text-end {
+    text-align: end;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.color-white {
+    color: white;
+}
+.margin-auto {
+    margin: 0 auto;
+}
+.dark-red {
+    background-color: #b33939;
+}
+.blue {
+    background-color: #227093;
+}
+.green {
+    background-color: #218c74;
+}
